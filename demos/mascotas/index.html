@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Green Paws Grooming · Las Vegas, NV</title>
+<meta name="description" content="Green Paws Grooming — Pet grooming — Las Vegas, NV">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f4f6ef;--panel:#ffffff;--panel-2:#ebefe3;--line:#dbe2cf;--text:#1f2a1c;--muted:#64705d;--accent:#4f7d3a;--accent-ink:#ffffff;--ok:#3fa46a;--closed:#d9534f;--radius:14px;--wrap:1120px;color-scheme:light}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit}.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;line-height:1.05;margin:0;letter-spacing:-.01em;}
+  header.bar{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .bar .wrap{display:flex;align-items:center;gap:16px;height:64px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+  .logo .mark{width:32px;height:32px;border-radius:9px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 16px "DM Serif Display",sans-serif;flex:none}
+  .logo span{font:700 20px/1.1 "DM Serif Display",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  nav{margin-left:auto;display:flex;gap:22px}nav a{text-decoration:none;color:var(--muted);font-weight:500;font-size:15px}nav a:hover{color:var(--text)}
+  .lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+  .lang button{background:none;border:0;color:var(--muted);font:600 13px Inter,sans-serif;padding:6px 11px;cursor:pointer}
+  .lang button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+  .call-top{text-decoration:none;background:var(--accent);color:var(--accent-ink);font-weight:600;padding:9px 16px;border-radius:999px;white-space:nowrap}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 420px at 85% 10%,color-mix(in srgb,var(--accent) 20%,transparent),transparent 60%),repeating-linear-gradient(135deg,color-mix(in srgb,var(--text) 3%,transparent) 0 2px,transparent 2px 14px)}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:48px;padding-top:84px;padding-bottom:84px;align-items:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  .hero h1{font-size:clamp(48px,8.5vw,100px);margin:14px 0 18px;overflow-wrap:anywhere}.hero h1 em{font-style:normal;color:var(--accent)}
+  .hero p.lead{font-size:19px;color:color-mix(in srgb,var(--text) 82%,var(--bg));max-width:36ch;margin:0 0 30px}
+  .cta{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:10px;border:1px solid var(--line);transition:transform .15s ease}
+  .btn:hover{transform:translateY(-1px)}.btn svg{width:18px;height:18px}
+  .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.btn.ghost{background:var(--panel)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+  .status-card{padding:26px}
+  .status{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+  .status.open .dot{background:var(--ok);box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 22%,transparent)}
+  .status.closed .dot{background:var(--closed);box-shadow:0 0 0 4px color-mix(in srgb,var(--closed) 20%,transparent)}
+  .status small{display:block;font-weight:500;color:var(--muted);font-size:14px;margin-top:2px}
+  .facts{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:14px}
+  .facts li{display:flex;gap:12px;align-items:flex-start;overflow-wrap:anywhere}
+  .facts svg{width:20px;height:20px;flex:none;margin-top:2px;color:var(--accent)}
+  .stars{display:inline-flex;gap:2px;color:var(--accent);vertical-align:-3px}.stars svg{width:17px;height:17px}
+  section{padding:86px 0;border-bottom:1px solid var(--line)}
+  .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:34px;flex-wrap:wrap}
+  .section-head h2{font-size:clamp(36px,5vw,56px)}.section-head p{color:var(--muted);margin:0;max-width:52ch}
+  .grid{display:grid;gap:18px}.g1{grid-template-columns:1fr}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+  .pillar{padding:26px}.pillar .icon{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);margin-bottom:18px}
+  .pillar .icon svg{width:24px;height:24px}.pillar h3{font-size:26px;margin-bottom:8px}.pillar p{margin:0;color:var(--muted)}
+  .menu{padding:6px 26px}.menu .item{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:16px 0;border-bottom:1px dashed var(--line)}
+  .menu .item:last-child{border-bottom:0}.menu b{font-weight:600;font-size:17px}.menu p{margin:4px 0 0;color:var(--muted);font-size:15px}
+  .menu .price{font:700 20px "DM Serif Display",sans-serif;color:var(--accent);white-space:nowrap}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--muted)}
+  .review{padding:26px;display:flex;flex-direction:column;gap:14px}.review blockquote{margin:0;font-size:18px;flex:1}
+  .review footer{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:14px}.review footer b{color:var(--text);font-weight:600}
+  .rating-big{display:flex;align-items:center;gap:14px}.rating-big strong{font:800 54px/1 "DM Serif Display",sans-serif;color:var(--accent)}.rating-big span{color:var(--muted);font-size:14px}
+  .more{margin-top:22px}.more-link{color:var(--accent);font-weight:600;text-decoration:none}.more-link:hover{text-decoration:underline}
+  .visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px}.visit-grid.solo{grid-template-columns:1fr}
+  .hours{padding:10px 26px}.hours table{width:100%;border-collapse:collapse}
+  .hours td{padding:13px 0;border-bottom:1px solid var(--line)}.hours tr:last-child td{border-bottom:0}
+  .hours td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+  .hours tr.today td{color:var(--accent);font-weight:600}
+  .hours tr.today td:first-child::after{content:attr(data-today);margin-left:8px;font-size:12px;background:color-mix(in srgb,var(--accent) 16%,transparent);padding:2px 8px;border-radius:999px}
+  .map{overflow:hidden;min-height:380px;display:flex;flex-direction:column}
+  .map iframe{border:0;width:100%;flex:1;min-height:300px}
+  .map .addr{padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line)}
+  .online{margin-top:18px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;background:linear-gradient(120deg,color-mix(in srgb,var(--accent) 16%,transparent),transparent),var(--panel)}
+  .online h3{font-size:32px}
+  footer.site{padding:40px 0 110px;color:var(--muted);font-size:14px}
+  footer.site .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .concept{margin-top:18px;font-size:12.5px;opacity:.75}
+  .mobile-bar{display:none}
+  @media (max-width:900px){
+    nav,.call-top{display:none}.lang{margin-left:auto}
+    .hero .wrap,.visit-grid{grid-template-columns:1fr}.hero .wrap{padding-top:56px;padding-bottom:56px;gap:32px}
+    .g2,.g3{grid-template-columns:1fr}section{padding:64px 0}.wrap{padding:0 16px}
+    .mobile-bar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:color-mix(in srgb,var(--bg) 94%,transparent);border-top:1px solid var(--line);z-index:20}
+    .mobile-bar .btn{justify-content:center;padding:13px}
+  }</style>
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <a class="logo" href="#top"><span class="mark">G</span><span>Green Paws Grooming</span></a>
+  <nav>
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#services" data-i18n="services_title">Services</a>
+    
+    <a href="#visit" data-i18n="nav_visit">Hours &amp; location</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="es" aria-pressed="false">ES</button>
+  </div>
+  <a class="call-top" href="tel:+17025550125">(702) 555-0125</a>
+</div></header>
+
+<main id="top">
+  <div class="hero"><div class="wrap">
+    <div>
+      <span class="eyebrow" data-i18n="category">Pet grooming · Las Vegas, NV</span>
+      <h1>Green Paws<br><em>Grooming</em></h1>
+      <p class="lead" data-i18n="tagline">Gentle grooming that leaves your best friend clean, calm and happy.</p>
+      <div class="cta"><a class="btn primary" href="tel:+17025550125"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><span data-i18n="call">Call</span></a><a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Green%20Paws%20Grooming%2C%20Las%20Vegas%2C%20NV" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11 22 2l-9 19-2-8-8-2Z"/></svg><span data-i18n="directions">Get directions</span></a></div>
+    </div>
+    <aside class="card status-card" aria-live="polite">
+      <div class="status" id="status"><span class="dot"></span><div><span id="status-text"></span><small id="status-sub"></small></div></div>
+      <ul class="facts"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Las Vegas, NV</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:+17025550125">(702) 555-0125</a></li></ul>
+    </aside>
+  </div></div>
+
+  <section id="about"><div class="wrap">
+        <div class="section-head"><h2 data-i18n="nav_about">About</h2></div>
+        <div class="grid g3">
+          <article class="card pillar">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <h3 data-i18n="h0_t">Bath &amp; brush</h3>
+            <p data-i18n="h0_d">Natural shampoos for sensitive skin.</p>
+          </article><article class="card pillar">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
+            <h3 data-i18n="h1_t">Full groom</h3>
+            <p data-i18n="h1_d">Breed cuts and nail trims.</p>
+          </article><article class="card pillar">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6 12 2Z"/></svg></div>
+            <h3 data-i18n="h2_t">Calm handling</h3>
+            <p data-i18n="h2_d">No rush, no stress.</p>
+          </article>
+        </div>
+        
+      </div></section>
+  <section id="services"><div class="wrap">
+        <div class="section-head"><h2 data-i18n="services_title">Services</h2></div>
+        <div class="card menu">
+          <div class="item"><div><b data-i18n="s0_n">Bath &amp; brush</b></div></div><div class="item"><div><b data-i18n="s1_n">Full groom</b></div></div><div class="item"><div><b data-i18n="s2_n">Nail trim</b></div></div>
+        </div>
+      </div></section>
+  
+
+  <section id="visit"><div class="wrap">
+    <div class="section-head"><h2 data-i18n="visit_title">Visit us</h2><p>Las Vegas, NV</p></div>
+    <div class="visit-grid">
+      <div class="card hours"><table id="hours" aria-label="Hours"></table></div>
+      <div class="card map">
+        <iframe title="Map: Green Paws Grooming" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-115.1488%2C36.164899999999996%2C-115.1308%2C36.1749&amp;layer=mapnik&amp;marker=36.1699%2C-115.1398"></iframe>
+        <div class="addr"><span>Las Vegas, NV</span><a class="more-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Green%20Paws%20Grooming%2C%20Las%20Vegas%2C%20NV" target="_blank" rel="noopener" data-i18n="directions">Get directions</a></div>
+      </div>
+    </div>
+    
+  </div></section>
+</main>
+
+<footer class="site"><div class="wrap">
+  <div><strong style="color:var(--text)">Green Paws Grooming</strong><br>Las Vegas, NV · <a href="tel:+17025550125">(702) 555-0125</a>
+    <div class="concept" data-i18n="concept">Example website by Webora. Fictional business.</div></div>
+  <div>© <span id="year"></span> Green Paws Grooming</div>
+</div></footer>
+
+<div class="mobile-bar"><a class="btn primary" href="tel:+17025550125"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><span data-i18n="call">Call</span></a><a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Green%20Paws%20Grooming%2C%20Las%20Vegas%2C%20NV" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11 22 2l-9 19-2-8-8-2Z"/></svg><span data-i18n="directions">Get directions</span></a></div>
+
+<script>
+const D = {"T":{"en":{"nav_about":"About","nav_reviews":"Reviews","nav_visit":"Hours & location","call":"Call","directions":"Get directions","website":"Visit website","reviews_title":"What customers say","all_reviews":"See all reviews →","visit_title":"Visit us","details":"Good to know","hours":"Hours","on":"on","reviews_word":"reviews","closed":"Closed","today":"Today","openNow":"Open now","closedNow":"Closed now","open24":"Open 24 hours","closesAt":"Closes at {t}","opensAt":"Opens {d} at {t}","tomorrow":"tomorrow","todayWord":"today","days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"concept":"Example website by Webora. Fictional business.","category":"Pet grooming · Las Vegas, NV","tagline":"Gentle grooming that leaves your best friend clean, calm and happy.","about":"","count_label":"","h0_t":"Bath & brush","h0_d":"Natural shampoos for sensitive skin.","h1_t":"Full groom","h1_d":"Breed cuts and nail trims.","h2_t":"Calm handling","h2_d":"No rush, no stress.","s0_n":"Bath & brush","s0_d":"","s1_n":"Full groom","s1_d":"","s2_n":"Nail trim","s2_d":"","services_title":"Services"},"es":{"nav_about":"Nosotros","nav_reviews":"Reseñas","nav_visit":"Horario y ubicación","call":"Llamar","directions":"Cómo llegar","website":"Visitar sitio web","reviews_title":"Lo que dicen los clientes","all_reviews":"Ver todas las reseñas →","visit_title":"Visítanos","details":"Bueno saber","hours":"Horario","on":"en","reviews_word":"reseñas","closed":"Cerrado","today":"Hoy","openNow":"Abierto ahora","closedNow":"Cerrado ahora","open24":"Abierto 24 horas","closesAt":"Cierra a las {t}","opensAt":"Abre {d} a las {t}","tomorrow":"mañana","todayWord":"hoy","days":["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"],"concept":"Sitio de ejemplo hecho por Webora. Negocio ficticio.","category":"Estética de mascotas · Las Vegas, NV","tagline":"Un baño y corte con calma, para que tu mejor amigo salga limpio y feliz.","about":"","count_label":"","h0_t":"Baño y cepillado","h0_d":"Champús naturales para piel sensible.","h1_t":"Corte completo","h1_d":"Cortes por raza y uñas.","h2_t":"Trato tranquilo","h2_d":"Sin prisas y sin estrés.","s0_n":"Baño y cepillado","s0_d":"","s1_n":"Corte completo","s1_d":"","s2_n":"Corte de uñas","s2_d":"","services_title":"Servicios"}},"hours":[[],[[9,18]],[[9,18]],[[9,18]],[[9,18]],[[9,18]],[[10,16]]],"tz":"America/Los_Angeles","lang":"en"}
+const time = (h) => { h = ((h % 24) + 24) % 24; const hh = Math.floor(h), mm = Math.round((h - hh) * 60); return ((hh + 11) % 12 + 1) + (mm ? ':' + String(mm).padStart(2, '0') : '') + ' ' + (hh < 12 ? 'AM' : 'PM') }
+function now() {
+  const p = new Intl.DateTimeFormat('en-US', { timeZone: D.tz, weekday: 'short', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' }).formatToParts(new Date())
+  const g = (t) => p.find((x) => x.type === t).value
+  return { day: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(g('weekday')), hour: Number(g('hour')) + Number(g('minute')) / 60 }
+}
+function render(lang) {
+  const t = D.T[lang]
+  document.documentElement.lang = lang
+  document.querySelectorAll('[data-i18n]').forEach((el) => { const v = t[el.dataset.i18n]; if (typeof v === 'string') el.textContent = v })
+  document.querySelectorAll('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)))
+  if (!D.hours) return
+  const { day, hour } = now()
+  const fmt = (r) => r[0] === 0 && r[1] >= 24 ? t.open24 : r.map(time).join(' – ')
+  const order = [1, 2, 3, 4, 5, 6, 0]
+  const table = document.getElementById('hours')
+  table.textContent = ''
+  for (const d of order) {
+    const tr = table.insertRow()
+    if (d === day) tr.className = 'today'
+    const a = tr.insertCell(), b = tr.insertCell()
+    a.textContent = t.days[d]
+    a.dataset.today = t.today
+    b.textContent = D.hours[d].length ? D.hours[d].map(fmt).join(', ') : t.closed
+  }
+  // Open now: a range today, or last night's that runs past midnight.
+  let open = D.hours[day].find((r) => hour >= r[0] && hour < r[1])
+  if (!open) {
+    const late = D.hours[(day + 6) % 7].find((r) => r[1] > 24 && hour < r[1] - 24)
+    if (late) open = [0, late[1] - 24]
+  }
+  const status = document.getElementById('status')
+  let text, sub = ''
+  if (open) {
+    status.className = 'status open'; text = t.openNow
+    sub = open[0] === 0 && open[1] >= 24 ? t.open24 : t.closesAt.replace('{t}', time(open[1]))
+  } else {
+    status.className = 'status closed'; text = t.closedNow
+    const later = D.hours[day].find((r) => r[0] > hour)
+    if (later) sub = t.opensAt.replace('{d}', t.todayWord).replace('{t}', time(later[0]))
+    else for (let i = 1; i <= 7; i++) { const d = (day + i) % 7; if (D.hours[d].length) { sub = t.opensAt.replace('{d}', i === 1 ? t.tomorrow : t.days[d].toLowerCase()).replace('{t}', time(D.hours[d][0][0])); break } }
+  }
+  document.getElementById('status-text').textContent = text
+  document.getElementById('status-sub').textContent = sub
+}
+let lang = D.lang
+try { lang = localStorage.getItem('site-lang') || lang } catch {}
+document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => { lang = b.dataset.lang; try { localStorage.setItem('site-lang', lang) } catch {} ; render(lang) }))
+document.getElementById('year').textContent = new Date().getFullYear()
+render(lang)
+setInterval(() => render(lang), 60000)
+</script>
+</body>
+</html>
